@@ -26,11 +26,19 @@ The **RISC-V Talent Development Program** is an initiative by **Samsung Semicond
 </details>
 <details>
 <summary>Task 2: Simulation with Spike</summary>
+
+<img src="Task2/debugging in O1.PNG"/>
+<img src="Task2/debugging in Ofast.PNG"/>
+<img src="Task2/objectdump O1.PNG"/>
+<img src="Task2/objectdump Ofast.PNG"/>
+<img src="Task2/spike simulation.PNG"/>
        
 </details>
 <details>
 <summary>Task 3: Identification of RISC-V Instructions</summary>
-        
+
+<img src="Task 3/riscv objdump O1.PNG"/>
+
 <summary>1. addi sp, sp, -32</summary>
 
 Opcode(ADDI): 0010011  
@@ -222,6 +230,17 @@ Install iverlog using commands:
 4. To see the simulation waveform in GTKWave, enter the following command:
 
         gtkwave iiitb_rv32i.vcd
+
+<img src="Task4/add.png"/>
+<img src="Task4/addi.png"/>
+<img src="Task4/and.png"/>
+<img src="Task4/beq.png"/>
+<img src="Task4/or.png"/>
+<img src="Task4/slt.png"/>
+<img src="Task4/sub1.png"/>
+<img src="Task4/waveforms.png"/>
+<img src="Task4/xor.png"/>
+
 </details>
 <details>
 <summary>Task 5: Project Implementation</summary>
@@ -271,11 +290,13 @@ The microcontroller controls the LED by turning it **ON and OFF at precise inter
 </details>
 <details>
 <summary>Task 6: Project Demonstration</summary>
-**Circuit Vedio Demonstration**
        
+**Circuit Vedio Demonstration**
+<https://github.com/Poorvi-Sahyadri-ECE/samsung-riscv/blob/main/circuit%20vedio%20demonstration.mp4/>
+
 **SOS Morse-Code Blinker: Code**
-       ```
-       #include <ch32v00x.h>
+ ```c      
+#include <ch32v00x.h>
 
 #define LED_PIN GPIO_Pin_0  // PD0 for LED
 
@@ -339,5 +360,8 @@ int main(void) {
     loop();
     return 0;
 } 
+```
+**Platformio.ini**
+<img src ="Task6/platformio.ini.png"/>
 
 </details>
