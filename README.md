@@ -216,6 +216,7 @@ Install iverlog using commands:
 </detail>
 <detail>
 <summary>Task 5: Project Implementation</summary>
+       
 **Overview: SOS Morse Code Blinker Using LED**  
 
 This project creates an **SOS Morse Code signal** using an **LED** and a **VSDSquadron Mini (CH32V003)** microcontroller. The LED blinks in the standard **Morse Code pattern** (`· · · — — — · · ·`), which is widely recognized as a distress signal.  
@@ -329,4 +330,5 @@ int main(void) {
     loop();
     return 0;
 } 
+
 </detail>
