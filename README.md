@@ -13,22 +13,16 @@ The **RISC-V Talent Development Program** is an initiative by **Samsung Semicond
 ---
 
 <detail>
-       <summary>Task 1: Development of C Based Lab</summary>
+<summary>Task 1: Development of C Based Lab</summary>
        
 </detail>
-
----
-
 <detail>
-       <summary>Task 2: Simulation with Spike</summary>
+<summary>Task 2: Simulation with Spike</summary>
 </detail>
-
----
-
 <detail>
-       <summary>Task 3: Identification of RISC-V Instructions</summary>
-
-       <summary>1. addi sp, sp, -32</summary>
+<summary>Task 3: Identification of RISC-V Instructions</summary>
+        
+<summary>1. addi sp, sp, -32</summary>
 
 Opcode(ADDI): 0010011  
 Immediate: -32 = 11111111111111100000 (12 bits)  
@@ -196,11 +190,10 @@ Register (rd): a0 = 01010
 |000000000000|	00000	|000	|01010	|0010011|
 ---
 </detail>
-
----
-
 <detail>
-       <summary>Task 4: Functional Simulation of RISC-V Core</summary>
+<summary>Task 4: Functional Simulation of RISC-V Core</summary>
+</summary> 
+<br>
 Steps to perform functional simulation of RISCV
 
 1. Download Files:
@@ -221,12 +214,9 @@ Install iverlog using commands:
 
         gtkwave iiitb_rv32i.vcd
 </detail>
-
----
-
 <detail>
-       <summary>Task 5: Project Implementation</summary>
-      ### **Overview: SOS Morse Code Blinker Using LED**  
+<summary>Task 5: Project Implementation</summary>
+**Overview: SOS Morse Code Blinker Using LED**  
 
 This project creates an **SOS Morse Code signal** using an **LED** and a **VSDSquadron Mini (CH32V003)** microcontroller. The LED blinks in the standard **Morse Code pattern** (`· · · — — — · · ·`), which is widely recognized as a distress signal.  
 
@@ -239,11 +229,11 @@ The microcontroller controls the LED by turning it **ON and OFF at precise inter
 
 ---
 
-### **🚀 SOS Morse Code Blinker Using LED**  
+** SOS Morse Code Blinker Using LED**  
 
 ---
 
-## **Components Required**  
+**Components Required**  
 | **Component**       | **Quantity** |  
 |---------------------|-------------|  
 | **VSDSquadron Mini (CH32V003)** | 1 |  
@@ -254,13 +244,13 @@ The microcontroller controls the LED by turning it **ON and OFF at precise inter
 
 ---
 
-## **Hardware Connection**  
+**Hardware Connection**  
 1. **Connect the LED Anode (+) to PD0** through a **220Ω resistor**.  
 2. **Connect the LED Cathode (-) directly to GND**.  
 
 ---
 
-## **Pin-to-Pin Connection Table**  
+**Pin-to-Pin Connection Table**  
 | **Component**       | **VSDSquadron Mini Pin** | **Connection Details** |  
 |---------------------|----------------------|-----------------|  
 | **LED Anode (+)**   | **PD0**  | Connect through **220Ω resistor** |  
@@ -268,13 +258,12 @@ The microcontroller controls the LED by turning it **ON and OFF at precise inter
 | **220Ω Resistor**   | **Between PD0 & LED Anode** | Limits current to protect LED |  
 
 ---
-
+</detail>
 <detail>
-       <summary>Task 6: Project Demonstration</summary>
-       **Circuit Vedio Demonstration**
+<summary>Task 6: Project Demonstration</summary>
+**Circuit Vedio Demonstration**
        
-       
-       **SOS Morse-Code Blinker: Code**
+**SOS Morse-Code Blinker: Code**
        ```
        #include <ch32v00x.h>
 
