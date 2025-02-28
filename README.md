@@ -14,6 +14,14 @@ The **RISC-V Talent Development Program** is an initiative by **Samsung Semicond
 
 <details>
 <summary>Task 1: Development of C Based Lab</summary>
+
+<img src="Task1/catcommand.PNG"/>
+<img src="Task1/ccode compiled using riscv.PNG"/>
+<img src="Task1/ccode.PNG"/>
+<img src="Task1/ccodeoutput.PNG"/>
+<img src="Task1/code.PNG"/>
+<img src="Task1/riscv objdump O1.PNG"/>
+<img src="Task1/riscv objdump Ofast.PNG"/>
        
 </details>
 <details>
