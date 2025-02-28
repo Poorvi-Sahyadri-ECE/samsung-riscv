@@ -12,14 +12,15 @@ The **RISC-V Talent Development Program** is an initiative by **Samsung Semicond
 
 ---
 
-<detail>
+<details>
 <summary>Task 1: Development of C Based Lab</summary>
        
-</detail>
-<detail>
+</details>
+<details>
 <summary>Task 2: Simulation with Spike</summary>
-</detail>
-<detail>
+       
+</details>
+<details>
 <summary>Task 3: Identification of RISC-V Instructions</summary>
         
 <summary>1. addi sp, sp, -32</summary>
@@ -189,8 +190,8 @@ Register (rd): a0 = 01010
 |----------|-------|-------|--------|-------|
 |000000000000|	00000	|000	|01010	|0010011|
 ---
-</detail>
-<detail>
+</details>
+<details>
 <summary>Task 4: Functional Simulation of RISC-V Core</summary>
 </summary> 
 <br>
@@ -213,8 +214,8 @@ Install iverlog using commands:
 4. To see the simulation waveform in GTKWave, enter the following command:
 
         gtkwave iiitb_rv32i.vcd
-</detail>
-<detail>
+</details>
+<details>
 <summary>Task 5: Project Implementation</summary>
        
 **Overview: SOS Morse Code Blinker Using LED**  
@@ -259,8 +260,8 @@ The microcontroller controls the LED by turning it **ON and OFF at precise inter
 | **220Ω Resistor**   | **Between PD0 & LED Anode** | Limits current to protect LED |  
 
 ---
-</detail>
-<detail>
+</details>
+<details>
 <summary>Task 6: Project Demonstration</summary>
 **Circuit Vedio Demonstration**
        
@@ -331,4 +332,4 @@ int main(void) {
     return 0;
 } 
 
-</detail>
+</details>
