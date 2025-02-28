@@ -201,8 +201,6 @@ Register (rd): a0 = 01010
 
 <detail>
        <summary>Task 4: Functional Simulation of RISC-V Core</summary>
-       </summary>
-<br>
 Steps to perform functional simulation of RISCV
 
 1. Download Files:
@@ -228,7 +226,6 @@ Install iverlog using commands:
 
 <detail>
        <summary>Task 5: Project Implementation</summary>
-       </summary>
       ### **Overview: SOS Morse Code Blinker Using LED**  
 
 This project creates an **SOS Morse Code signal** using an **LED** and a **VSDSquadron Mini (CH32V003)** microcontroller. The LED blinks in the standard **Morse Code pattern** (`· · · — — — · · ·`), which is widely recognized as a distress signal.  
@@ -274,7 +271,6 @@ The microcontroller controls the LED by turning it **ON and OFF at precise inter
 
 <detail>
        <summary>Task 6: Project Demonstration</summary>
-       </summary>
        **Circuit Vedio Demonstration**
        
        
